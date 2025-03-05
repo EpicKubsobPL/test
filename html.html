@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="js.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="container">
+        <form action="javascript:void(0);" method="get" id="form">
+            <input type="text" autocomplete="off" name="imie" placeholder="Imię">
+            <input type="text" autocomplete="off" name="nazwisko" placeholder="Nazwisko">
+            <input type="text" autocomplete="off" name="email" placeholder="Adres Email">
+           
+            <div id="blad"></div>
+            <input type="submit" value="Wyślij" onclick="sprawdz()">
+            <input type="reset" value="Resetuj">
+
+            <!-- jakaś zmiana -->
+        </form>
+    </div>
+</body>
+</html>
